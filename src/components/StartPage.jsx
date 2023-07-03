@@ -84,7 +84,7 @@ const StartPage = ({ handleStartQuiz }) => {
                 </div>
 
                 <div>
-                  <label className=" dark:text-gray-200" htmlFor="difficulty">
+                  <label className=" dark:text-gray-500" htmlFor="difficulty">
                     Difficulty
                   </label>
                   <select
@@ -100,7 +100,7 @@ const StartPage = ({ handleStartQuiz }) => {
                 </div>
 
                 <div>
-                  <label className=" dark:text-gray-200" htmlFor="questions">
+                  <label className=" dark:text-gray-500" htmlFor="questions">
                     No. Of questions
                   </label>
                   <input
