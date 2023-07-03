@@ -51,12 +51,12 @@ const StartPage = ({ handleStartQuiz }) => {
             <form onSubmit={handleSubmit(handleUserPreference)}>
               <div className="grid grid-cols-1 gap-2 gap-y-4 mt-4 md:grid-cols-2 w-full">
                 <div>
-                  <label className=" dark:text-gray-200" htmlFor="category">
+                  <label className=" dark:text-gray-500" htmlFor="category">
                     Category
                   </label>
                   <select
                     id="category"
-                    className="block w-full px-4 py-2.5  text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
+                    className="block w-full px-4 py-2.5  text-gray-700 bg-white border border-gray-300 rounded-md focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
                     {...register("category")}
                   >
                     <option value="">Any Category</option>
@@ -69,12 +69,12 @@ const StartPage = ({ handleStartQuiz }) => {
                 </div>
 
                 <div>
-                  <label className=" dark:text-gray-200" htmlFor="type">
+                  <label className=" dark:text-gray-500" htmlFor="type">
                     Type
                   </label>
                   <select
                     id="type"
-                    className="block w-full px-4 py-2.5  text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
+                    className="block w-full px-4 py-2.5  text-gray-700 bg-white border border-gray-300 rounded-md focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
                     {...register("type")}
                   >
                     <option value="">Any Type</option>
@@ -89,7 +89,7 @@ const StartPage = ({ handleStartQuiz }) => {
                   </label>
                   <select
                     id="difficulty"
-                    className="block w-full px-4 py-2.5  text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
+                    className="block w-full px-4 py-2.5  text-gray-700 bg-white border border-gray-300 rounded-md focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
                     {...register("difficulty")}
                   >
                     <option value="">Any Dificulty</option>
@@ -110,7 +110,7 @@ const StartPage = ({ handleStartQuiz }) => {
                     min="10"
                     max="50"
                     required
-                    className="block w-full px-4 py-2  text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
+                    className="block w-full px-4 py-2  text-gray-700 bg-white border border-gray-300 rounded-md focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
                     {...register("questions")}
                   />
                   {errors.questions && (
