@@ -25,7 +25,6 @@ const StartPage = ({ handleStartQuiz }) => {
     }`;
 
     setUrlCategory(url);
-
     handleStartQuiz(url);
   };
 
