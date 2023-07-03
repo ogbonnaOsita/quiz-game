@@ -140,7 +140,7 @@ const QuizPage = ({ questions, handleStartQuiz }) => {
       ) : (
         <div>
           <div className="flex flex-col items-center">
-            <img src="/public/cup.png" className="w-[4rem] md:w-[8rem]" />
+            <img src="/cup.png" className="w-[8rem]" />
             {handleRating()}
             <h3 className="font-medium text-2xl">
               Your score: {score}/{noOfQuestions}
